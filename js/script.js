@@ -31,18 +31,14 @@ const biglietto = (km, età) => {
  *
  * @returns {number}
  */
-function generaNumeroCasuale() {
-    return Math.floor(Math.random() * 9) + 1;
-}
+const generaNumeroCasuale = () =>  Math.floor(Math.random() * 9) + 1;
 
 /**
  * funzione che genera un numero casuale da 1 a 99999 per il CP
  *
  * @returns {number}
  */
-function generaNumeroCasualeCP() {
-    return Math.floor(Math.random() * 99999) + 1;
-}
+const generaNumeroCasualeCP = () => Math.floor(Math.random() * 99999) + 1;
 
 // Prelevo le variabili inserite dall'utente
 const userForm = document.getElementById("user-form");
